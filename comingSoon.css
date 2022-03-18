@@ -7,7 +7,9 @@
   --Color-secundario: white;
   --Color-terciario: black;
 }
-
+head {
+  font-size: 1px;
+}
 body {
   background-image: url(fondo.png);
   background-repeat: repeat;
@@ -23,7 +25,7 @@ body {
 
 nav {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.25);
+
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -68,15 +70,15 @@ a:active {
 @media (orientation: portrait) {
   #hatchingSoon {
     position: absolute;
-    width: 100vw;
-    height: auto;
+    height: 60vh;
+    width: auto;
   }
   i {
-    font-size: 4vw;
+    font-size: 8vw;
   }
   nav {
-    left: 80vw;
-    width: 20vw;
+    left: 60vw;
+    width: 40vw;
     height: 10vh;
   }
 }
