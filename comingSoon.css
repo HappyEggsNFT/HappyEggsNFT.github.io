@@ -9,27 +9,23 @@
 }
 
 body {
-  background-image: url(comingSoonFondo.jpg);
+  background-image: url(fondo.png);
   background-repeat: repeat;
-
+  background-size: auto auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 100vh;
   width: 100vw;
   font-size: 1.5vw;
+  overflow: hidden;
 }
 
 nav {
   position: absolute;
-  font-size: 200%;
   background-color: rgba(0, 0, 0, 0.25);
-  backdrop-filter: ;
-  left: 80vw;
-  width: 20vw;
   display: flex;
   justify-content: space-around;
-  height: 8vw;
   align-items: center;
   top: 0vh;
 }
@@ -51,4 +47,36 @@ a:hover {
 
 a:active {
   color: var(--Color-principal);
+}
+
+@media (orientation: landscape) {
+  #hatchingSoon {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+  }
+  i {
+    font-size: 3vw;
+  }
+  nav {
+    left: 85vw;
+    width: 15vw;
+    height: 10vw;
+  }
+}
+
+@media (orientation: portrait) {
+  #hatchingSoon {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+  }
+  i {
+    font-size: 4vw;
+  }
+  nav {
+    left: 80vw;
+    width: 20vw;
+    height: 10vh;
+  }
 }
