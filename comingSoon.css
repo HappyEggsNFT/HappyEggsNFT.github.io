@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --Color-principal: #f4d145;
+  --Color-secundario: white;
+  --Color-terciario: black;
+}
+
+body {
+  background-image: url(comingSoonFondo.jpg);
+  background-repeat: repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
+  font-size: 1.5vw;
+}
+
+nav {
+  position: absolute;
+  font-size: 200%;
+  background-color: rgba(0, 0, 0, 0.25);
+  backdrop-filter: ;
+  left: 80vw;
+  width: 20vw;
+  display: flex;
+  justify-content: space-around;
+  height: 8vw;
+  align-items: center;
+  top: 0vh;
+}
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: var(--Color-principal);
+}
+
+a:visited {
+  color: var(--Color-principal);
+}
+
+a:hover {
+  color: var(--Color-principal);
+}
+
+a:active {
+  color: var(--Color-principal);
+}
