@@ -3,10 +3,11 @@
   padding: 0;
 }
 :root {
+  --fondo:#B4CAD9;
   --Color-principal: #f4d145;
   --Color-secundario: white;
   --Color-terciario: black;
-  --Main-text-color: yellow;
+  --Main-text-color: #FFF5C3;
   --Main-font-size: 1.5vw;
   --Main-font-weight: 400;
   --gutter: 20px;
@@ -15,7 +16,7 @@ head {
   font-size: 1px;
 }
 body {
-  background-color: aqua;
+  background-color: var(--fondo);
   width: 99vw;
   font-size: var(--Main-font-size);
   color: var(--Main-text-color);
@@ -113,4 +114,8 @@ main > div {
 .separator::before, .separator::after {
   content: "";
   display: block;
+}
+.EggsPlan img{
+  width: 99vw;
+  
 }
